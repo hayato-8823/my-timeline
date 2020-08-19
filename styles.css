@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background: slategrey;
+}
+
+main {
+  display: flex;
+  position: relative;
+  top: 100px;
+}
+main > section {
+  text-align: right;
+}
